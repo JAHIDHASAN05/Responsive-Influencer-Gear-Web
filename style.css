@@ -7,4 +7,53 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    /* border: 1px solid red; */
+}
+
+
+
+/* nav ber style starts */
+
+
+.nav-bar{
+
+    margin: 5rem  7rem;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.section-title{
+    color: #3A3A3A;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.menu-bar{
+    color: #3A3A3A;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+nav ul img{
+    width: 1.8rem;
+    height: 1.8rem;
 }
